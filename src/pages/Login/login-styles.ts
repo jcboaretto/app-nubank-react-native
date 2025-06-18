@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export const styles = StyleSheet.create({
+export const stylesLogin = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#830AD1",
@@ -11,22 +11,29 @@ export const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
   },
-  logoLogin: {
-    flex: 1,
+  logoImagem: {
     width: 180, // Tamanho menor
     height: 150, // Tamanho menor
     resizeMode: "contain", // Mantém proporção
-    justifyContent: "center",
-    alignItems: "center",
+  },
+  input: {
+    width: 300,
+    height: 40,
+    backgroundColor: "#f2f2f2",
+    borderRadius: 8,
+    paddingHorizontal: 15,
+    fontSize: 16,
+    color: "#000",
+    marginBottom: 15,
   },
   button: {
     // flex: 1,
     backgroundColor: "#FBFFFF",
     borderRadius: 9999,
     color: "#000",
-    height: 35,
+    height: 40,
     width: 250,
-    marginBottom: 170,
+    marginBottom: 50,
   },
   buttonText: {
     flex: 1,
@@ -34,6 +41,6 @@ export const styles = StyleSheet.create({
     color: "#000",
     fontSize: 16,
     fontWeight: "bold",
-    padding: 5,
+    padding: 8,
   },
 });
