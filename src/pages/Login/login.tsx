@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, Image, Button, TouchableOpacity, TextInput } from "react-native";
 import { stylesLogin } from "./login-styles";
 import logo from "../../../assets/nubank-logo.png";
+import { Home } from "../homePage/home";
 
 export const Login = () => {
   return (
@@ -32,7 +33,12 @@ export const Login = () => {
             }}
             style={stylesLogin.button}
           >
-            <Text style={stylesLogin.buttonText}>Usar senha do celular</Text>
+            <Text
+              // onPress={<Home />} funciona??
+              style={stylesLogin.buttonText}
+            >
+              Usar senha do celular
+            </Text>
           </TouchableOpacity>
         </View>
       </View>
