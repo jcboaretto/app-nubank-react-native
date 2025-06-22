@@ -12,9 +12,9 @@ export const stylesLogin = StyleSheet.create({
     justifyContent: "center",
   },
   logoImagem: {
-    width: 180, // Tamanho menor
-    height: 150, // Tamanho menor
-    resizeMode: "contain", // Mantém proporção
+    width: 180,
+    height: 150,
+    resizeMode: "contain",
   },
   input: {
     width: 300,
@@ -22,6 +22,7 @@ export const stylesLogin = StyleSheet.create({
     backgroundColor: "#f2f2f2",
     borderRadius: 8,
     paddingHorizontal: 15,
+    fontFamily: "Roboto",
     fontSize: 16,
     color: "#000",
     marginBottom: 15,
@@ -38,8 +39,9 @@ export const stylesLogin = StyleSheet.create({
   buttonText: {
     flex: 1,
     alignSelf: "center",
+    fontFamily: "Roboto",
     color: "#000",
-    fontSize: 16,
+    fontSize: 17,
     fontWeight: "bold",
     padding: 8,
   },
