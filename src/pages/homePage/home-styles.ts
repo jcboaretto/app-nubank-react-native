@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
   },
+
   cima: {
     flex: 0.167,
     backgroundColor: "#591E8C",
@@ -13,38 +14,95 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  fotoUsuario: {
-    justifyContent: "center",
-    width: 80,
-    height: 75,
-  },
+
   iconesCima: {
-    // backgroundColor: "#eb4034",
     width: 350,
     height: 40,
-
     flexDirection: "row",
-    gap: 20,
+    justifyContent: "space-between",
+    alignItems: "center",
   },
+
+  esquerdaCima: {
+    flexDirection: "column",
+    alignItems: "flex-start",
+  },
+
+  direitaCima: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  fotoUsuario: {
+    width: 90,
+    height: 90,
+    borderRadius: 18,
+  },
+
+  fotoUsuarioImg: {
+    width: "100%",
+    height: "100%",
+    borderRadius: 20,
+  },
+
+  ola: {
+    color: "#FBFFFF",
+    fontFamily: "Roboto",
+    fontSize: 18,
+    fontWeight: "bold",
+  },
+
+  iconButton: {
+    marginLeft: 20,
+  },
+
   iconCima: {
-    justifyContent: "space-around",
     width: 23,
     height: 23,
   },
-  ola: {
+
+  textoIcone: {
     color: "#FBFFFF",
-    fontSize: 16,
-    fontWeight: "bold",
-    justifyContent: "flex-start",
+    fontFamily: "Roboto",
+    fontSize: 14,
+    fontWeight: "700",
+    textAlign: "center",
   },
-  textBolinha: {
-    gap: 10,
-    alignItems: "center",
-  },
+
   baixo: {
     flex: 0.833,
     backgroundColor: "#000",
   },
+
+  saldoContainer: {
+    paddingHorizontal: 20,
+    paddingTop: 20,
+    paddingBottom: 10,
+  },
+
+  saldoMsg: {
+    color: "#FBFFFF",
+    fontSize: 24,
+    fontFamily: "Roboto",
+    fontWeight: "400",
+    marginBottom: 4,
+  },
+
+  /*
+    NOVO ESTILO: Para o valor do saldo "R$ 100,00"
+    Texto maior e mais destacado
+  */
+  saldoValor: {
+    color: "#FBFFFF",
+    fontFamily: "Roboto",
+    fontSize: 32,
+    fontWeight: "bold",
+  },
+
+  /*
+    ALTERAÇÃO: Manter estilo original do saldo para outros usos
+    Mas agora será usado para outros textos do app
+  */
   saldo: {
     color: "#FBFFFF",
     alignItems: "flex-start",
@@ -52,12 +110,52 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     padding: 20,
   },
+
+  /*
+    NOVO ESTILO: Para organizar a seção do cartão de crédito
+    Agrupa título, subtítulo e valor
+  */
+  divCartao: {
+    paddingHorizontal: 20,
+    paddingVertical: 15,
+  },
+
+  cartaoText: {
+    color: "#FBFFFF",
+    fontFamily: "Roboto",
+    fontSize: 24,
+    fontWeight: 500,
+    marginBottom: 4,
+  },
+
+  cartaoSubText: {
+    color: "#AAAAAA",
+    fontFamily: "Roboto",
+    fontSize: 14,
+    fontWeight: 500,
+    marginBottom: 4,
+  },
+
+  cartaoValor: {
+    color: "#FBFFFF",
+    fontSize: 25,
+    fontFamily: "Roboto",
+    fontWeight: "bold",
+  },
+
+  textBolinha: {
+    gap: 10,
+    alignItems: "center",
+  },
+
   divBolinha: {
     justifyContent: "center",
     alignItems: "center",
     flexDirection: "row",
     gap: 10,
+    paddingVertical: 20,
   },
+
   bolinhas: {
     backgroundColor: "#222222",
     borderRadius: 200,
@@ -67,6 +165,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+
   divCartoes: {
     borderRadius: 18,
     marginTop: 10,
@@ -79,13 +178,36 @@ export const styles = StyleSheet.create({
     gap: 18,
     backgroundColor: "#222222",
   },
+
   cartoes: {
     borderRadius: 8,
-    // width: 350,
-    // height: 50,
     color: "#FBFFFF",
-    fontWeight: "bold",
-    fontSize: 16,
+    fontFamily: "Roboto",
+    fontWeight: "500",
+    fontSize: 14,
+    justifyContent: "flex-start",
+    alignItems: "center",
+    textAlign: "center",
+  },
+  divPixCartao: {
+    borderRadius: 18,
+    marginTop: 10,
+    paddingVertical: 20,
+    paddingHorizontal: 25,
+    marginHorizontal: 19,
+    justifyContent: "flex-start",
+    alignItems: "center",
+    flexDirection: "row",
+    gap: 18,
+    backgroundColor: "#1E2A4A",
+  },
+
+  pixCartao: {
+    borderRadius: 8,
+    color: "#FBFFFF",
+    fontFamily: "Roboto",
+    fontWeight: "500",
+    fontSize: 14,
     justifyContent: "flex-start",
     alignItems: "center",
     textAlign: "center",
