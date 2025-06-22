@@ -88,10 +88,6 @@ export const styles = StyleSheet.create({
     marginBottom: 4,
   },
 
-  /*
-    NOVO ESTILO: Para o valor do saldo "R$ 100,00"
-    Texto maior e mais destacado
-  */
   saldoValor: {
     color: "#FBFFFF",
     fontFamily: "Roboto",
@@ -99,10 +95,6 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 
-  /*
-    ALTERAÇÃO: Manter estilo original do saldo para outros usos
-    Mas agora será usado para outros textos do app
-  */
   saldo: {
     color: "#FBFFFF",
     alignItems: "flex-start",
@@ -111,10 +103,6 @@ export const styles = StyleSheet.create({
     padding: 20,
   },
 
-  /*
-    NOVO ESTILO: Para organizar a seção do cartão de crédito
-    Agrupa título, subtítulo e valor
-  */
   divCartao: {
     paddingHorizontal: 20,
     paddingVertical: 15,
