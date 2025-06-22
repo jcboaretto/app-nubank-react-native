@@ -20,7 +20,7 @@ export const stylesLogin = StyleSheet.create({
     width: 300,
     height: 40,
     backgroundColor: "#f2f2f2",
-    borderRadius: 8,
+    borderRadius: 9999,
     paddingHorizontal: 15,
     fontFamily: "Roboto",
     fontSize: 16,
