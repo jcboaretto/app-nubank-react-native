@@ -16,7 +16,7 @@ export const Login = () => {
           style={stylesLogin.input}
           placeholder="Digite seu cpf"
           placeholderTextColor="#aaa"
-          keyboardType="email-address"
+          keyboardType="numeric"
         />
 
         <TextInput

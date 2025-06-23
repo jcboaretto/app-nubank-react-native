@@ -20,9 +20,9 @@ export const Home = () => {
         <View style={styles.cima}>
           <View style={styles.iconesCima}>
             <View style={styles.esquerdaCima}>
-              <View style={styles.fotoUsuario}>
-                <Image source={eu} style={styles.fotoUsuarioImg} />
-              </View>
+              {/* <View style={styles.fotoUsuario}> */}
+              <Image source={eu} style={styles.fotoUsuarioImg} />
+              {/* </View> */}
               <Text style={styles.ola}>Olá, José</Text>
             </View>
 

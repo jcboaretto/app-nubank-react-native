@@ -16,21 +16,25 @@ export const styles = StyleSheet.create({
   },
 
   iconesCima: {
-    width: 350,
+    width: "100%",
     height: 40,
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
+    // backgroundColor: "green",
+    paddingHorizontal: 0,
   },
 
   esquerdaCima: {
     flexDirection: "column",
     alignItems: "flex-start",
+    // backgroundColor: "#fff",
   },
 
   direitaCima: {
     flexDirection: "row",
     alignItems: "center",
+    paddingRight: 20,
   },
 
   fotoUsuario: {
@@ -40,8 +44,8 @@ export const styles = StyleSheet.create({
   },
 
   fotoUsuarioImg: {
-    width: "100%",
-    height: "100%",
+    width: 75,
+    height: 75,
     borderRadius: 20,
   },
 
@@ -50,6 +54,7 @@ export const styles = StyleSheet.create({
     fontFamily: "Roboto",
     fontSize: 18,
     fontWeight: "bold",
+    paddingLeft: 20,
   },
 
   iconButton: {
