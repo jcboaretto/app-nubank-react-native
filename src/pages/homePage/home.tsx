@@ -20,9 +20,9 @@ export const Home = () => {
         <View style={styles.cima}>
           <View style={styles.iconesCima}>
             <View style={styles.esquerdaCima}>
-              {/* <View style={styles.fotoUsuario}> */}
-              <Image source={eu} style={styles.fotoUsuarioImg} />
-              {/* </View> */}
+              <View style={styles.fotoUsuario}>
+                <Image source={eu} style={styles.fotoUsuarioImg} />
+              </View>
               <Text style={styles.ola}>Olá, José</Text>
             </View>
 
@@ -41,10 +41,6 @@ export const Home = () => {
         </View>
 
         <View style={styles.baixo}>
-          {/* 
-            MELHORIA: Organizar melhor a seção do saldo
-            Separar o label "Saldo em conta" do valor "R$ 100,00"
-          */}
           <View style={styles.saldoContainer}>
             <Text style={styles.saldoMsg}>Saldo em conta</Text>
             <Text style={styles.saldoValor}>R$ 100,00</Text>
@@ -55,7 +51,6 @@ export const Home = () => {
               <View style={styles.bolinhas}>
                 <Image source={pix} />
               </View>
-              {/* ALTERAÇÃO: Usar classe específica para texto dos ícones */}
               <Text style={styles.textoIcone}>Área Pix</Text>
             </TouchableOpacity>
             <TouchableOpacity style={styles.textBolinha}>
